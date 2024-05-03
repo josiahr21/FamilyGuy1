@@ -25,32 +25,85 @@
             
             li a:hover {
                 background-color: #111;
-            }</style>
+            }
+            #myDiv {
+                border: 10px solid #d3e11e;
+                margin-bottom: 50px;
+                margin-right: 50px;
+                margin-left: 50px;
+            }            p {
+                font-size: 18px;
+                text-align: left
+                ;margin-left: 20px;
+            }
+            p {
+                line-height: 2.5;
+            }
+            h1 {
+                ;margin-left: 10px;
+            }
+            h2 {
+                ;margin-left: 10px;
+            }
+            h3 {
+                ;margin-left: 10px;
+            }
+        </style>
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="textcorpus.html">Text Corpus</a></li>
-                <li><a href="url">Methods</a></li>
-                <li><a href="dataanalysis.html">Data Analysis</a></li>
-                <li><a href="https://github.com/josiahr21/FamilyGuy1.git" target="_blank">GitHub</a></li>
-                <li><a href="credits.html">Credits</a></li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="textcorpus.html">Text Corpus</a>
+                </li>
+                <li>
+                    <a href="methods.html">Methods</a>
+                </li>
+                <li>
+                    <a href="dataanalysis.html">Data Analysis</a>
+                </li>
+                <li>
+                    <a href="https://github.com/josiahr21/FamilyGuy1.git" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a href="credits.html">Credits</a>
+                </li>
             </ul>
         </nav>
-        <h1>Data Analysis with AntConc</h1>
-        <p>For our Data Analysis, we wanted to see how often certain characters appeared throughout
-            the show. We first started with the main character, Peter Griffin.</p>
-        <img src="Peter1.png" alt="Peter" width="700" height="450" class="center" />
-        <p>We wanted to view the most common phrases with Peter's name. We found it was best to use
-            three worded phrases as two worded phrases were mostly the same. With four and five
-            worded phrases, they became less common which was not useful in our findings. For the
-            most part, the word "peter" shows up the most in season 22 episode five, Baby It's Cold
-            Inside.</p>
-        <img src="Peter2.png" alt="Peter" width="700" height="450" class="center" />
-        <p>For our next analysis, we wanted to view how often Brian shows up within the show.</p>
-        <img src="Brian1.png" alt="Brian" width="700" height="450" class="center"/>
-        <p>Additionally, we wante dto see themost common phrases that include Brian's name. He is one of the most popular characters in Family Guy, not including Peter.</p>
-        <img src="Brian2.png" alt="Brian" width="700" height="450" class="center"/>
+        <div style="margin:20px"></div>
+        <div id="myDiv">
+            <h1>Data Analysis</h1>
+            <p>For our Data Analysis, we wanted to see how often certain characters appeared
+                throughout the show. We first started with the main character, Peter Griffin.</p>
+            <div style="text-align: center;">
+                <img src="Peter1.png" alt="Peter" width="700" height="450" class="center" />
+            </div>
+            <p>We wanted to view the most common phrases with Peter's name. We found it was best to
+                use three worded phrases as two worded phrases were mostly the same. With four and
+                five worded phrases, they became less common which was not useful in our findings.
+                For the most part, the word "peter" shows up the most in season 22 episode five,
+                "Baby It's Cold Inside".</p>
+            <div style="text-align: center;">
+                <img src="Peter2.png" alt="Peter" width="700" height="450" class="center" />
+            </div>
+            <h2>SVG</h2>
+            <p>Additionally, we wanted to see the most common phrases that include Brian's name. He
+                is one of the most popular characters in Family Guy, not including Peter. We wanted
+                to show the most commonly referred to characters with an SVG graph.</p>
+            <div style="text-align: center;">
+                <img src="familyguy.svg" alt="FamilyGuy" width="700" height="450" class="center" />
+            </div>
+            <h2>Jupyter Notebook</h2>
+            <p>For our Jupyter Notebook, we wanted to analyze the amount of pop culture references
+                that were inside of the show. This is similar to how the popular music website,
+                Genius operates. In our output we found that Peter, highlighted, has the most
+                connections to the other characters in the show.</p>
+            <div style="text-align: center;">
+                <img src="jupyter.png" alt="Brian" width="700" height="450" class="center" />
+            </div>
+        </div>
     </body>
 </html>
